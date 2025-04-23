@@ -1,0 +1,56 @@
+Javascript print function----
+
+1. alert(" ")
+2. Document.write()
+3. innerhtml()
+
+JS Roadmap----
+
+. JS & features
+. Variables in JS
+. Data types
+. Operators
+. Conditional & Control statements
+. Loops
+. Data structures
+
+. Scope
+. Objects
+. Functions
+. Form Validations
+. DOM Manipulation
+. Events
+. BOM Elements
+
+JS Advanced----
+
+. Prototyping
+. Proto type Inheritance
+. Call backs
+. IIFE
+. Promises
+. Ajax/ Axioxs
+. Async Await
+. Closures
+. OPPs Concepts
+. JSON
+
+Variables in JS---
+
+. Var
+. Let
+. Const
+
+Arrays in JS----
+
+. Why arrays
+. How to declare arrays
+. How to access array elements
+. How to update / add array elements
+. Methods on arrays
+  -> push()
+  -> pop()
+  -> Unshift()
+  -> shift()
+  -> indexOf()
+  -> Slice()
