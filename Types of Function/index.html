@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of functions</title>
+</head>
+<body>
+    <script>
+        // Anonymous function
+
+        var sub = function(num1, num2){
+            var result = num1 - num2;
+            return result;
+        }
+
+        document.writeln("Sub is :" + sub(1238,456));
+
+        // IIFE
+
+        var add = (function(num1, num2){
+            var result = num1 + num2;
+            return result;
+        })(1238,1456);
+
+        document.writeln("<br> Add is :" + add);
+
+        // Arrow function
+
+        // Div = (num3,num4)=>{
+        //     var result = num3 % num4;
+        //     return result;
+        // }
+
+        // document.write("<br> Div is: " + Div(455,8));
+
+        // prod = (num3,num4)=> num3 + num4
+        prod = num3 => num3*num3*num3
+        document.write("<br> prod is :" + prod(345));
+
+        greet = () => document.write("<br> Hi! JS")
+        greet()
+
+        greets = _ => {
+            document.write("<br> Hi! Javascript")
+            document.write("<br> Arrow Function Topic");
+        }
+        greets()
+
+    </script>
+</body>
+</html>

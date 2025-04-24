@@ -63,3 +63,25 @@ Functions in JS----
 . How to create functions---- function functionName(parameter1,.... parametern){ body  return value; }
 . How to call function
 . What is function expresion--- Assigning function to a variable [add = fun sum(num1,num2){ var result = num1+num2; return result; }
+
+
+Types of Functions-----
+
+. Named functions
+. Anonymous function----- [function(num1,num2){ body return value; } ]
+. Immediately Invoked function expression(IIFE)--- When we want to execute a function immediately where they Created, IIFE used. [syntax : (function definition)();]
+. Arrow function---- function(par1, par2.... par n)=>{ body return value; }
+
+. if only one parameter
+
+var cube = num1 => num1*num1*num1
+
+var cube = (num1) => num1*num1*num1
+
+var cube = (num1) => {return num1*num1*num1}
+
+. if no argument
+
+var greet = () => console.log("GM");
+
+var greet = _ => console.log("GM");
