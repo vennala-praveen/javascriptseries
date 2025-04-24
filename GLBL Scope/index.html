@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scopes</title>
+</head>
+<body>
+    <script>
+
+        <!--Global scope, Local scope, Block level scope-->
+
+        // Local scope --> o/p -- x is not defined
+        // function test(){
+        //     var x = 10;
+        // }
+
+        // var y = x+10;
+         
+
+        // Global scope
+
+        function test1(){
+            console.log(y);
+            var x = y+10;
+        }
+
+        var y = 10;
+        const num = 455;
+        test1();
+
+        {
+            console.log(num);
+        }
+
+    </script>
+</body>
+</html>

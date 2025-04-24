@@ -85,3 +85,9 @@ var cube = (num1) => {return num1*num1*num1}
 var greet = () => console.log("GM");
 
 var greet = _ => console.log("GM");
+
+
+Global scope && Local scope && Block level scope
+
+
+
