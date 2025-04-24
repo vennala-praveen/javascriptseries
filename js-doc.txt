@@ -54,3 +54,12 @@ Arrays in JS----
   -> shift()
   -> indexOf()
   -> Slice()
+
+
+Functions in JS----
+
+. What is function-- function{ stat1, stat2, stat3...... statn }
+. Why function
+. How to create functions---- function functionName(parameter1,.... parametern){ body  return value; }
+. How to call function
+. What is function expresion--- Assigning function to a variable [add = fun sum(num1,num2){ var result = num1+num2; return result; }
