@@ -8,11 +8,30 @@
 <body>
     <H1>HI</H1>
     <script>
-        function product(num1=5,num2=6){
-            console.log("num1 = ",num1, "num2 = ",num2,num1, "*",num2, " =",num1*num2);
+        // function product(num1=5,num2=6){
+        //     console.log("num1 =",num1, "num2 =",num2,num1, "*",num2, " =",num1*num2);
+        // }
+
+        // product(4,8,9);
+
+        // function product(num1=2,num2=4,...arr){
+        //     console.log(arr);
+
+        //     var result = num1 * num2;
+            
+        //     for(num of arr){
+        //         result = result * num;
+        //     }
+        //     console.log(result);
+        // }
+
+        // product(3,5,7,6,8);
+
+        function product(num1=1,num2=1,...rest){
+            console.log(arguments);
         }
 
-        product();
+        product(3,5,6,8,9);
     </script>
 </body>
 </html>

@@ -106,6 +106,18 @@ var result = num1*num2;
 return result;
 }
 
+Rest param---
+
+We can make function to accept unspecified number of parameters
+
+fun prod(num1=1,num2=3, ...arr){
+var result = num1*num2;
+return result;
+}
+
+fun arguments ---- fun prod(num1,num2,...arr){console.log(arguemnts)} prod(2,3,4,5);
+
+
 
 
 
