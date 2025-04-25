@@ -90,4 +90,22 @@ var greet = _ => console.log("GM");
 Global scope && Local scope && Block level scope
 
 
+25-04-2025----
+
+Default para & Rest para JS----
+
+fun prod(num1,num2){
+var result - num1 * num2;
+return result;
+}
+
+Default param---
+
+fun prod(num1,num2=1){
+var result = num1*num2;
+return result;
+}
+
+
+
 
