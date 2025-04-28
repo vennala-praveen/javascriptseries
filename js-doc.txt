@@ -137,7 +137,22 @@ collection of unique values
 // array-- collection of values
 
 
+Objects in JS-----*****
 
+. Object is collection of elemnts in the form of properties end methods.
+. Property is a key-value pair.
 
+1. Object Literal
+2. Using a new keyword with Object constructor
+3. Using a new keyword with a constructor function
+4. Object.create() method
+5. Classes
 
+How to access object values:
+
+We can access values by using keys in 2 ways--
+
+1. obj["key"]  -> quotes are mandatory
+
+2. obj.key = value ---> Ex: movie.budget = "400 crores"
 
