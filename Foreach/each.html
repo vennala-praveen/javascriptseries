@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForEach</title>
+</head>
+<body>
+    <h1>forEach in JS</h1>
+    <script>
+        var salaries = [40000,35000,50000,70000,43000];
+        console.log(salaries);
+        // salaries.forEach((salary,index,array)=>{
+        //     let incr = salary / 10;
+        //     salaries[index] = salary + incr;
+        // })
+
+        // salaries.forEach(function increment(salary,index,array){
+        //     let incr = salary / 10;
+        //     salaries[index] = salary + incr;
+        // console.log(salaries);
+
+        // })
+
+        salaries.forEach(increment)
+
+        function increment(salary,index){
+            let increment = salary/10;
+            salaries[index] = salary + increment;
+        }
+
+        console.log(salaries);
+        
+    </script>
+</body>
+</html>

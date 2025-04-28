@@ -118,6 +118,18 @@ return result;
 fun arguments ---- fun prod(num1,num2,...arr){console.log(arguemnts)} prod(2,3,4,5);
 
 
+ForEach in JS------
+
+For every element present inside array the specified function will be executed.
+
+syntax:
+
+	arr.forEach(function funName(currentItem, index, arr){
+		// code here
+	});
+
+
+
 
 
 
