@@ -16,17 +16,47 @@
         p1.add(20)
         console.log(p1);
 
-        a1 = [20,30,30,40,60,70,88,70,90];
-        console.log(a1);
+        // a1 = [20,30,30,40,60,70,88,70,90];
+        // console.log(a1);
 
-        let s1 = new Set(a1);
-        console.log(s1);
+        // let s1 = new Set(a1);
+        // console.log(s1);
 
-        let s2 = "Visakhapatnam";
+        let s2 = "Visakhapatnam1";
         let s3 = new Set(s2);
         console.log(s3)
 
+        // status = s3.delete('1');
+        // console.log(status)
+
+        // let status = s3.has('V');
+        // console.log(status);
+
+        // console.log(s3.size);
+
+        // s3.clear();
+        // console.log(s3.size);
         
+        // for(ele of s2){
+        //     console.log(ele)
+        // }
+
+        s3.forEach(function(ele,index,s){
+            console.log(ele);
+            console.log(index);
+            console.log(s);
+        })
+
+        console.log(s3.entries());
+
+        let itr = s3.entries();
+
+        console.log(itr.next());
+        console.log(itr.next());
+        console.log(itr.next());
+        console.log(itr.next());
+        console.log(itr.next());
+
     </script>
 </body>
 </html>
