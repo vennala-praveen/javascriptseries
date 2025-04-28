@@ -9,14 +9,57 @@
     <h1>Objects in JS</h1>
 
     <script>
-        let movie = {name: "BB2", release: 2020, director: "Rajmouli"};
-        console.log(movie);
+        // let movie = {name: "BB2", release: 2020, director: "Rajmouli"};
+        // console.log(movie);
 
-        movie["release"] = 2018;
-        console.log(movie);
+        // movie["release"] = 2018;
+        // console.log(movie);
 
-        movie.budget = "500 crores";
-        console.log(movie);
+        // movie.budget = "500 crores";
+        // console.log(movie);
+
+        // let movie1 = new Object();
+        // console.log(movie1);
+        // movie1["release"] = 2018;
+        // console.log(movie1);
+
+        // movie1.budget = "500 crores";
+        // console.log(movie1);
+
+            function user(name, age, place, location){
+                this.name = name;
+                this.age = age;
+                this.place = place;
+                this.location = location;
+
+                this.login = function(){
+                    console.log("Hello"+" "+ this.name + " " + "logged in successfully");
+                }
+            }
+
+            let user1 = new user("Tony", 54, "MAR", "Amer");
+            console.log(user1);
+
+            let user2 = new user("Sung", 29, "Anime");
+            user2.mobile = 9054762178;
+            user2.location = "New York";
+            console.log(user2);
+
+
+            let user3 = Object.create(user1);
+            console.log("user1:");
+            console.log(user1)
+            console.log("user3:")
+            user3.name = "Jack";
+            user3.age = 55;
+            user3.location = "Visakhapatnam";
+            console.log(user3)
+
+            user3.login();
+
+            user2.login();
+
+            user1.login();
     </script>
 </body>
 </html>

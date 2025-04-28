@@ -136,6 +136,7 @@ collection of unique values
 
 // array-- collection of values
 
+======================================================
 
 Objects in JS-----*****
 
@@ -143,10 +144,6 @@ Objects in JS-----*****
 . Property is a key-value pair.
 
 1. Object Literal
-2. Using a new keyword with Object constructor
-3. Using a new keyword with a constructor function
-4. Object.create() method
-5. Classes
 
 How to access object values:
 
@@ -155,4 +152,45 @@ We can access values by using keys in 2 ways--
 1. obj["key"]  -> quotes are mandatory
 
 2. obj.key = value ---> Ex: movie.budget = "400 crores"
+
+==========================================
+
+2. Using a new keyword with Object constructor ====
+
+... let movie1 = new Object();
+
+3. Using a new keyword with a constructor function====
+
+..... step1: create constructor function:
+
+function user(name, age, place){
+this.name = name;
+this.age = age;
+this.place = place
+}
+
+
+step2: create object with constructor function call:
+
+let movie1 = new movie("abc", 26, "Visakhapatnam"):
+
+=========================================
+
+4. Object.create() method====
+
+let movie2 = Object.create(movie);
+
+let movie3 = Object.create(move, {
+		name: {
+		value: "rrr"
+		},
+		Music: {
+		value: "Keeravani"
+		}
+
+=========================================
+
+5. Classes
+
+
 
