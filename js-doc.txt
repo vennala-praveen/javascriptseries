@@ -130,6 +130,14 @@ syntax:
 
 
 
+Sets in JS------
+
+collection of unique values
+
+// array-- collection of values
+
+
+
 
 
 
