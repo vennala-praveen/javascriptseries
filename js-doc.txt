@@ -222,9 +222,18 @@ Console.log--------------------
 
 .. console.timeend()
 
-.. console.group()
+.. console.group("Group 1")
 
+console.log("group log1")
+console.log("group log1")
+console.log("group log1")
 .. console.groupend()
+
+======================================\
+
+DOM in JS--------------(Document object model)
+
+
 
 
 
