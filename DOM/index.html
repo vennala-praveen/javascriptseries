@@ -8,9 +8,21 @@
 <body>
     <h1>DOM in JS</h1>
 
-    <script>
+    <h2 id="demo">Hi! Tony Stark</h2>
 
-        
+    <script>
+        let x = document.getElementById("demo");
+        console.log(x);
     </script>
+
+        <div class="demo1">
+            <h1>Hi! Tony Stark</h1>
+            <p>Welcome to JS class</p>
+        </div>
+
+        <script>
+            let y = document.getElementsByClassName("demo1");
+            console.log(y);
+        </script>
 </body>
 </html>

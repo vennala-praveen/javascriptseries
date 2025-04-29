@@ -229,13 +229,34 @@ console.log("group log1")
 console.log("group log1")
 .. console.groupend()
 
-======================================\
+======================================
 
 DOM in JS--------------(Document object model)
 
+1. By using HTML DOM JavaScript can access, change or remove any elements of HTML document and also can create new elements at any position.
+
+2. When a webpage loaded, browser create DOM of webpage.
+
+ Struc :-------  DOM ---- Document ---- HTML -------[head, title] ------ [body, h1, div ---- p]
+
+Document Object has ------ . Properties,  . Methods
+
+Using this document object properties & methods we can
+
+	. Select HTML elements
+	. Modify HTML elements
+	. Remove/delete HTMl elements
+	. Create HTML elements
+	. Add/Remove/Change styles to HTML elements
 
 
+Methods to select HTML Elements:  
 
+1. document.getElementById("idname") --- Returns element with the specified id
 
+2. document.getElementByClassName("classname") --- Returns list of all elements belongs to the specified class
 
+3. document.getElementByTagName("tagname") --- Returns list of all elements with specified tag
+
+4. 
 
