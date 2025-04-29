@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console types</title>
+</head>
+<body>
+    <h1>Console log in JS</h1>
+
+    <script>
+        // let p = "used";
+        // console.log("log method", p);
+
+        // console.info("log method", p);
+
+        // console.warn("log method", p);
+
+        // console.error("log method", p);
+
+        // console.table(['xyz', 'abd', 'ntr', 'pur']);
+
+        // console.table({name:"PUR", age: 43, place: "India"});
+
+        // console.assert( 15<10, "condition false");
+
+        // console.count("called");
+        // console.count("called");
+        // console.count("called");
+        let y = +prompt("Enter your number");
+        console.time("loop time:");
+        while(y!=10){
+            console.log("Enter 10");
+            y = +prompt("Enter a number");
+            console.count("called");
+        }
+        console.timeEnd("loop time:");
+
+
+    </script>
+</body>
+</html>

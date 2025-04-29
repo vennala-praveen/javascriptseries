@@ -193,4 +193,40 @@ let movie3 = Object.create(move, {
 5. Classes
 
 
+===========================================
+
+
+Console.log--------------------
+
+.. console.log()
+
+.. console.info()
+
+.. console.warn()
+
+.. console.error()
+
+.. console.table()
+
+.. console.clear()
+
+.. console.assert()
+
+.. console.count()
+
+.. console.countreset()
+
+.. console.time()
+
+.. console.Timelog()
+
+.. console.timeend()
+
+.. console.group()
+
+.. console.groupend()
+
+
+
+
 
