@@ -258,5 +258,26 @@ Methods to select HTML Elements:
 
 3. document.getElementByTagName("tagname") --- Returns list of all elements with specified tag
 
-4. 
+4. document.querySelector(".class/#id/tagname") ---- Returns the first object matching CSS style selector
+
+5. document.querySelectorAll(".class/#id/tagname) --- Returns all objects Matches the CSS Style Selector
+
+========================================================================
+
+DOM properties to select HTML Elements:
+
+. document.body
+
+. document.head
+
+. document.title
+
+. document.anchors
+
+. document.forms
+
+. document.images
+
+. document.scripts
+
 
