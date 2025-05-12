@@ -280,4 +280,8 @@ DOM properties to select HTML Elements:
 
 . document.scripts
 
+=======================================================
+
+DOM Manipulation in JS------------------------------------
+
 
