@@ -284,4 +284,16 @@ DOM properties to select HTML Elements:
 
 DOM Manipulation in JS------------------------------------
 
+. How to create HTML elements
 
+. How to set content to element
+
+. How to append a new element
+
+. How to insert an element before another element
+
+. How to remove an element
+
+. How to remove child element
+
+. How to replace an elemnet

@@ -8,8 +8,28 @@
 <body>
     <h1>DOM Manipulation in JS</h1>
 
+    <div id="first">
+        <p>This is first paragraph in div1</p>
+        <p>This is second paragraph in div1</p>
+    </div>
+
+    <div id="second">
+        <p>This is first paragraph in div2</p>
+        <p>This is second paragraph in div2</p>
+    </div>
+
     <script>
-        
+        var n = document.createElement('h1');
+        n.innerText = "This is third paragraph in div2";
+        console.log(n);
+
+        var parent = document.getElementById("second");
+        console.log(parent);
+
+        parent.appendChild(n);
+
+        console.log(parent.innerText);
+        console.log(parent.innerHTML);
     </script>
 </body>
-</html>
+</html> 
