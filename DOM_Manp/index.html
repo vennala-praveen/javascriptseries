@@ -15,21 +15,29 @@
 
     <div id="second">
         <p>This is first paragraph in div2</p>
-        <p>This is second paragraph in div2</p>
+        <p id="last">This is second paragraph in div2</p>
     </div>
 
     <script>
-        var n = document.createElement('h1');
-        n.innerText = "This is third paragraph in div2";
-        console.log(n);
+        // var n = document.createElement('h1');
+        // n.innerText = "This is third paragraph in div2";
+        // console.log(n);
 
-        var parent = document.getElementById("second");
-        console.log(parent);
+        // var parent = document.getElementById("second");
+        // console.log(parent);
 
-        parent.appendChild(n);
+        // parent.appendChild(n);
 
-        console.log(parent.innerText);
-        console.log(parent.innerHTML);
+        // console.log(parent.innerText);
+        // console.log(parent.innerHTML);
+
+
+        // var last = document.getElementById("last");
+
+        // parent.insertBefore(n,last);
+
+        var last = document.getElementById("last");
+        last.remove();
     </script>
 </body>
 </html> 

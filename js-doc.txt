@@ -297,3 +297,13 @@ DOM Manipulation in JS------------------------------------
 . How to remove child element
 
 . How to replace an elemnet
+
+============================================================
+
+Add & Change style in JS--------
+
+. How to change style of element
+
+. How to get attribute value of an element
+
+. How to set/change attribute of an element

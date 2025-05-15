@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add & Change style</title>
+    <style>
+        #tom{
+            color: aqua;
+            /* background: green; */
+        }
+        .one{
+            background: greenyellow;
+        }
+        .two{
+            border: 7px solid grey;
+        }
+        .three{
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h4>Add & Change style in JS</h4>
+    <div id="tom" class="one">
+        Hi, I'm Tony!
+    </div>
+    
+
+    <script>
+        var y = document.getElementById("tom");
+        // y.style.color = "blue";
+        // y.style.border = "black 5px solid";
+
+        // console.log(y.getAttribute('id'));
+
+        // y.setAttribute('class','two')
+        y.style.alignItems = "center";
+        
+        y.classList.add('two')
+
+        y.classList.add('three')
+
+
+    </script>
+</body>
+</html>
