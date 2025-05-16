@@ -307,3 +307,11 @@ Add & Change style in JS--------
 . How to get attribute value of an element
 
 . How to set/change attribute of an element
+
+==============================================================
+
+Modal Windows in JS--------------------
+
+. Alert - to show message to user
+. Prompt - To take some input from user
+. Confirm - to get confirmation from user 
