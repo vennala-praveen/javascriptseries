@@ -314,4 +314,60 @@ Modal Windows in JS--------------------
 
 . Alert - to show message to user
 . Prompt - To take some input from user
-. Confirm - to get confirmation from user 
+. Confirm - to get confirmation from user
+
+============================================================
+
+Events in JS-------------------------------
+
+. What is event & types of events in JS
+
+. What is event handler
+
+. Ways to handle events in JS
+
+Event:-
+	. Event is nothing but an action
+	. In webpage also what ever user do everything is an event
+
+Who generates events:-
+	
+	. user ---> keypress, scroll, focus,....
+	. System ---> load, error, abort..
+
+Types of user generated events:-
+
+	. Browser specific events --> scrollup/down resize browser....
+	. DOM/web page specific events ---> click, hover, focus.....
+
+Event handler is function we write to run when an event happens.
+
+Commonly used events in JavaScript:
+
+Mouse Events	Keyboard Events	Focus Events	Form Events
+. click		. Key down 	. focus		. submit
+. double click	. Key up		. blur		. reset
+. mouseover	. Key press	. focusin		. change
+. mouseout			. focusout
+. mouse move
+
+Ways to handles events: 
+		. Inline event handlers(using event attributes in HTML)
+		ex: <button onclick = "JavaScript code">
+
+using event properties in Javascript
+
+Ex: let btn = document.getElementById('b1')
+button.onclick = function name / anonymous function
+
+using addEventListener() method in JavaScript
+
+Ex: let btn = document.getElementById('b1')
+
+button.addEventListener(eventname,fuction name/anonymous function
+
+
+
+
+
+ 
