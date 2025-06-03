@@ -25,16 +25,27 @@
 <body>
     <div id="special">
     <h3 class="head">Events in JS</h3>
-    <button id="b1">Change Color</button>
+    <button id="b1" onclick="change()">Change Color</button>
     </div>
 
     <script>
-        let btn = document.getElementById('b1')
+        // let btn = document.getElementById('b1')
         // btn.onclick = function(){document.body.style.backgroundColor="Blue"};
-        btn.addEventListener('click',change);
+        // btn.addEventListener('click',change);
+        // function change(){
+        //     document.body.style.backgroundColor = 'Green';
+        // }
+
         function change(){
-            document.body.style.backgroundColor = 'Green';
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for(var i=0; i<8; i++){
+                var r = Math.floor(Math.random()*16);
+                color = color + letters[r];
+            } 
+            document.body.style.backgroundColor = color;
         }
+        // #0-9, A-F
     </script>
 </body>
 </html>
