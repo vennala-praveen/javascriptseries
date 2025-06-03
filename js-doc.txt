@@ -366,6 +366,10 @@ Ex: let btn = document.getElementById('b1')
 
 button.addEventListener(eventname,fuction name/anonymous function
 
+=========================================================
+
+Set timeout() & set Interval() function
+
 
 
 
