@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method</title>
+</head>
+<body>
+    <h2>Map Method</h2>
+
+    <script>
+        var birthyears = [1995,1997,1998,2000,2010,2014];
+        var ages = birthyears.map(function(ele,index,arr){
+            let age = 2025-ele;
+            return age;
+        })
+
+        console.table(birthyears);
+        console.table(ages);
+    </script>
+</body>
+</html>
