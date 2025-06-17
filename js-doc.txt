@@ -410,7 +410,7 @@ Spread Operator---------------
 
 =============================================================
 
-Call Back function ---- is a function that is passing as an argument to another function
+Call Back function ---- is a function that is passing as an argument to another function.
 
 
 

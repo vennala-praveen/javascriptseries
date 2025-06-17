@@ -6,8 +6,23 @@
     <title>Call back function</title>
 </head>
 <body>
+
+    <h2>Call back function</h2>
     <script>
-        
+        function add(a,b){
+            console.log(a+b)
+        }
+
+        function prod(a,b){
+            console.log(a*b)
+        }
+
+        function cal(val1,val2,oper){
+            oper(val1,val2)
+        }
+
+        cal(6,8,prod)
+        cal(6,8,add)
     </script>
 </body>
 </html>
