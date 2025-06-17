@@ -408,7 +408,9 @@ Spread Operator---------------
   It takes an iterable and expandsor seperate each element of iterable
 
 
+=============================================================
 
+Call Back function ---- is a function that is passing as an argument to another function
 
 
 
