@@ -378,7 +378,36 @@ arr.map()
 
 ========================================================
 
-Filter Method
+Filter Method and Reduce Method
+
+arrname.reduce(function, accumulator default value)
+
+function can take 4 arguments
+
+function(acc, value, ele, index, arr)
+
+arr.reduce(function(acc, value, ele, index, arr){},8)
+
+This method returns a single value
+
+==========================================================
+
+washera Academy  web Dev Simplified  RoadesideCoder
+
+Find, Some and Every-------------------------
+
+//Find method is call back function
+
+// It returns the first element of array for which call backfunction returns true
+
+
+===========================================================
+
+Spread Operator---------------
+(...)
+  It takes an iterable and expandsor seperate each element of iterable
+
+
 
 
 
