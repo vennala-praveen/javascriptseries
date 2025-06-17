@@ -1,20 +1,17 @@
 const form = document.getElementById("form")
-
-
-
 const uname = document.getElementById("uname")
-
-
 const email = document.getElementById("email")
-
-
-
 const password = document.getElementById("password")
-
 const cpassword = document.getElementById("cpassword")
-
 const tandc= document.getElementById("tc")
 
+isValidName = false;
+isValidEmail = false;
+isValidPassword = false;
+isValidCPassword = false;
+isTCChecked = false;
+
+uname.addEventListener('keyup', checkUserName)
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault()
@@ -28,18 +25,16 @@ function validate(){
     let emailValue = email.value.trim()
     let passwordValue = password.value.trim()
     let cpasswordValue = cpassword.value.trim()
+
+    isValidName = false;
+    isValidEmail = false;
+    isValidPassword = false;
+    isValidCPassword = false;
+    isTCChecked = false;
    
 
     //User name check
-    if(nameValue===''){
-        setError(uname,'user name cannot be empty')
-    }
-    else if(nameValue.length<7){
-        setError(uname,'user name should be minimum 7 characters')
-    }
-    else{        
-        setSuccesss(uname)
-    }
+   checkUserName()
 
     //email check
     if(emailValue===''){
@@ -50,6 +45,7 @@ function validate(){
     }
     else{        
         setSuccesss(email)
+        isValidEmail = true
     }
 
     //Password check
@@ -61,6 +57,7 @@ function validate(){
     }
     else{        
         setSuccesss(password)
+        isValidPassword = true
     }
 
       
@@ -73,6 +70,7 @@ function validate(){
     }
     else{        
         setSuccesss(cpassword)
+        isValidCPassword = true
     }
 
     //Terms and conditions check
@@ -81,9 +79,23 @@ function validate(){
     }
     else{
         setSuccesss(tc)
+        isTCChecked = true
+    }
+
+
+    if(isValidName && isValidEmail && isValidPassword && isValidCPassword && isTCChecked){
+        form.submit()
     }
     
-   
+
+    function emailCheck(input){
+        let emailReg = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+        let valid = emailReg.test(input)       
+        return valid
+    }
+}
+
+
     function setError(input,message){
         let parent = input.parentElement;
         let small = parent.querySelector('small')
@@ -98,10 +110,19 @@ function validate(){
         parent.classList.remove('error')
     }
 
-    function emailCheck(input){
-        let emailReg = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
-        let valid = emailReg.test(input)       
-        return valid
+
+    //User name check
+    function checkUserName(){
+    let nameValue = uname.value.trim()
+    if(nameValue===''){
+        setError(uname,'user name cannot be empty')
+    }
+    else if(nameValue.length<7){
+        setError(uname,'user name should be minimum 7 characters')
+    }
+    else{        
+        setSuccesss(uname)
+        isValidName = true
     }
 }
 
