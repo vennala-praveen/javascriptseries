@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher order function</title>
+</head>
+<body>
+    
+    <h2>Higher Order Function</h2>
+
+<script>
+
+    // function first(fun){
+	//     fun()
+	// }
+    // function second(){
+	// console.log("This is second function")
+    // }
+
+    // first(second)
+
+    var arr = [1000, 55, 42, 17, 98];
+
+    // function square(arr){
+    //     squares = []
+    //     for(ele of arr){
+    //         let res = ele * ele;
+    //         squares.push(res)
+    //     }
+
+    //     console.log(squares)
+    // }
+
+    // square(arr)
+
+    function square(num){
+        return num * num;
+    }
+
+    function cube(num){
+        return num * num * num;
+    }
+
+    function incr(num){
+        return num + 1;
+    }
+
+    function anyopr(arr, opr){
+        let result = []
+        for(ele of arr){
+        let temp = opr(ele)
+            result.push(temp)
+            
+        }
+        return result
+        
+    }
+
+    let x = anyopr(arr,incr)
+    console.log(x);
+
+    let y = anyopr(arr,square)
+    console.log(y);
+
+    let z = anyopr(arr,cube)
+    console.log(z);
+
+    
+
+
+</script>
+</body>
+</html>

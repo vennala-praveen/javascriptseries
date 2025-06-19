@@ -413,6 +413,21 @@ Spread Operator---------------
 Call Back function ---- is a function that is passing as an argument to another function.
 
 
+==============================================================
+
+Higher order function is a function that receives another function as argument or return another function or both
+
+Example of receiving another function as argument:
+ 	
+function first(fun){
+	fun()
+	}
+function second(){
+	console.log("This is second function")
+}
+
+first(second)
+
 
 
 
