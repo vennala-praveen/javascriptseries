@@ -428,7 +428,19 @@ function second(){
 
 first(second)
 
+================================================================
 
+This Keyword in JS--------------------
+
+ Value of this keyword outside a function / object
+
+ Value of this keyword inside a regular function
+
+ Value of this keyword inside a method
+
+ Value of this keyword inside event handler
+
+ Value of this keyword inside a function in strict mode
 
 
 

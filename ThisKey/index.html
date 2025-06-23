@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Keyword</title>
+</head>
+<body>
+    <h2>This Keyword in JS</h2>
+
+    <input type="button" value="click" id="btn">
+    <script>
+        // var a = 20;
+        // function add(){
+        //     console.log(this.a)
+        //     console.log(window.a)
+        // }
+        // var anime = {
+        //     name:"JJK",
+        //     getName: function(){
+        //         console.log(this)
+        //     }
+        // }
+
+        // anime.getName()
+
+        document.getElementById('btn').onclick = function(){
+            console.log(this)
+        }
+
+    </script>
+</body>
+</html>
