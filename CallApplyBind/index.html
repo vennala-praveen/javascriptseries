@@ -9,7 +9,35 @@
     <h2>Call, Apply & Bind</h2>
 
     <script>
-        
+        var myObj = {
+            salary : 55000,
+            getSalary : function (a,b){
+                console.log(this.salary)
+                console.log(a,b)
+            }
+        }
+
+        myObj.getSalary(55,17)
+
+        emp1 = {
+            salary : 30000
+        }
+
+        emp2 = {
+            salary : 80000
+        }
+
+        emp3 = {
+            salary : 45000
+        }
+
+        myObj.getSalary.call(emp1,32,600)
+
+        myObj.getSalary.apply(emp2,[56,89])
+
+        var f1 = myObj.getSalary.bind(emp3,67,690)
+
+        f1()
     </script>
 </body>
 </html>
