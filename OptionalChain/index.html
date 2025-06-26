@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optional Chaining</title>
+</head>
+<body>
+    <h2>Optional Chaining</h2>
+
+    <script>
+        let employee = {
+            id : 55,
+            email : 'xyz@gmail.com',
+            personalInfo : {
+                name : 'Tony',
+                mobile : 9854716475,
+                address : {
+                    line1 :'Near NAD',
+                    line2 : 'RRV Puram',
+                    pincode : 530029,
+                    city : 'Visakhapatnam',
+                    state : 'Andhra Pradesh'
+                }
+            }
+        }
+
+        console.log(employee.personalInfo)
+
+        console.log(employee.personallInfo?.mobile)
+
+        
+    </script>
+</body>
+</html>

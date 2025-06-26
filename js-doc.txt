@@ -442,9 +442,21 @@ This Keyword in JS--------------------
 
  Value of this keyword inside a function in strict mode
 
+https://github.com/racharlasrikanth
+
+https://yt-portfolio-website4.vercel.app/
+
+WebDev Campus
+
+<div class="home-sci">
+                <a href="https://www.facebook.com/profile.php?id=100008597732802"target="_blank" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/__praveenvennala__?igsh=MWtsd3dlem5kNWp1MA=="target="_blank" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/9052485473"target="_blank" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/vennala-praveen"target="_blank" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+</div>
 
 
-
+===================================================================================
 
 
 
